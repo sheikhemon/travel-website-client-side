@@ -1,0 +1,40 @@
+.special-place {
+    background-color: #0f0e17;
+    padding: 100px 0;
+}
+
+.special-place h4 {
+    color: #b8c1ec;
+    letter-spacing: 1.5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.special-place h1 {
+    letter-spacing: 1.5px;
+    margin: 15px 0;
+    font-size: 55px;
+    color: #fffffe;
+}
+
+.special-place p {
+    color: #a7a9be;
+    line-height: 25px;
+}
+
+.button-style {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fffffe;
+    background: rgb(25, 12, 102);
+    background: linear-gradient( 90deg, rgba(25, 12, 102, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(25, 12, 103, 1) 100%, rgba(29, 14, 112, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(2, 0, 36, 1) 100%);
+    padding: 10px 25px;
+    border: 2 px solid black;
+    transition: all .2s linear;
+}
+
+.special-place img {
+    border: 2px solid #b8c1ec;
+    margin-top: 15px;
+}
