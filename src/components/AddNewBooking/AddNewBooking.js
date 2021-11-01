@@ -5,7 +5,7 @@ import "./AddNewBooking.css";
 const AddNewBooking = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
-        const uri = `https://dark-labyrinth-92476.herokuapp.com/allbooking`;
+        const uri = `https://quiet-everglades-89717.herokuapp.com/allbooking`;
         fetch(uri, {
             method: "POST",
             headers: {
@@ -24,7 +24,7 @@ const AddNewBooking = () => {
     return (
         <div className="add-services">
             <h2 className="text-center">
-                Add New <span>Destination</span>
+                ADD NEW BOOKING
             </h2>
 
             <form onSubmit={handleSubmit(onSubmit)}>

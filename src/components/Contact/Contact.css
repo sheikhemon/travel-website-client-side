@@ -5,9 +5,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 40px;
 }
+
 .contact-banner h2 {
-    color: #ff8906;
+    padding: 40px 60px;
+    background-color: black;
+    opacity: .7;
+    color: #ffffff;
     font-size: 50px;
     font-weight: 800;
 }

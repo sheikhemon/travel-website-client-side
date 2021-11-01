@@ -1,49 +1,62 @@
 .my-booking-style {
     background-color: #0f0e17;
-    padding: 40px 0;
+    padding: 110px 0;
 }
+
 .information {
-    color: #ff8906;
+    color: #ffffff !important;
 }
+
 .my-booking-style h1 {
     text-align: center;
-    color: #fffffe;
+    color: #fffffe !important;
     margin: 40px 0;
 }
+
 .my-booking-card {
     display: flex;
     background-color: black;
     border-radius: 20px;
 }
+
 .my-booking-card img {
-    width: 21vw;
-    height: 56vh;
-    border-radius: 20px;
+    width: 25vw;
+    height: 50vh;
 }
+
 .my-booking-card h4 {
     color: #fffffe;
     padding-left: 10px;
-    margin: 15px 0;
-}
-.my-booking-card p {
-    color: #a7a9be;
-    padding-left: 10px;
-}
-.my-booking-card button {
-    color: #fffffe;
+    margin: 20px 0;
     margin-left: 10px;
-    padding: 6px 20px;
-    border: 2px solid black;
-    border-radius: 20px;
-    background-color: #ff8906;
-    margin-bottom: 15px;
 }
-.my-booking-card button:hover {
-    background-color: black;
-    border: 2px solid #ff8906;
+
+.my-booking-card p {
+    margin-left: 20px;
+    color: #9498ac;
+}
+
+.my-booking-card button {
+    margin: 8px 0;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: #fffffe;
+    background: rgb(25, 12, 102);
+    background: linear-gradient(90deg, rgba(25, 12, 102, 1) 0%, rgba(2, 0, 36, 1) 100%, rgba(25, 12, 103, 1) 100%, rgba(29, 14, 112, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(2, 0, 36, 1) 100%);
+    padding: 8px 30px;
+    border: 2px solid black;
+    transition: all .2s linear;
 }
+
+.my-booking-card button:hover {
+    border: 2px solid #ff8906;
+    background-color: black;
+}
+
 /* @media only screen and (min-width: 688px) and (max-width: 992px)  */
+
 @media only screen and (max-width: 668px) {
     .my-booking-card {
         display: flex;

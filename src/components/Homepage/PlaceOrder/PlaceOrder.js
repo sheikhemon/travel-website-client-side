@@ -11,7 +11,7 @@ const PlaceOrder = () => {
     const { id } = useParams();
     const [booking, setBooking] = useState({});
     useEffect(() => {
-        const uri = `https://dark-labyrinth-92476.herokuapp.com/allbooking/${id}`;
+        const uri = `https://quiet-everglades-89717.herokuapp.com/allbooking/${id}`;
         fetch(uri)
             .then((res) => res.json())
             .then((data) => setBooking(data));

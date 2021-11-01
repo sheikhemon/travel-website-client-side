@@ -4,12 +4,12 @@ REACT APP [Travel]().
 
 ## Description
 
-A truism is a statement that is so widely accepted, or so evident and factual, that questioning its validity is considered foolish. ... Examples of Truism: The apple never falls far from the tree. A fool and his money are soon parted. A friend in need is a friend indeed.
+Try to pick up on a new trend or become an authoritative guide on something people really want to know about. Think about your reasons for writing a blog -- what do you want the world to know? Whatever makes you and your trip unique needs to be in your blog to be successful.
 
 ### `Objective`
 
 -   welcome to our Travel website
--   Money can't buy happiness its can tour
--   people can chose their best estination here
--   people can save their booking here for better experience
--   people can add a destination who loged in
+-   Write from a unique point of view. 
+-   Your point of view is your specific reason for writing a travel piece
+-   Be a good reader.
+-   Be honest.

@@ -9,7 +9,7 @@ const MyBooking = () => {
     const { user } = useAuth();
     const [allBooking, setAllBooking] = useState([]);
     useEffect(() => {
-        const uri = `https://dark-labyrinth-92476.herokuapp.com/mybooking/${user?.email}`;
+        const uri = `https://quiet-everglades-89717.herokuapp.com/mybooking/${user?.email}`;
         fetch(uri)
             .then((res) => res.json())
             .then((data) => setAllBooking(data));
@@ -19,7 +19,7 @@ const MyBooking = () => {
         const proceed = window.confirm("are you sure, you want to delete!!!");
         if (proceed) {
             fetch(
-                `https://dark-labyrinth-92476.herokuapp.com/mybooking/${id}`,
+                `https://quiet-everglades-89717.herokuapp.com/mybooking/${id}`,
                 {
                     method: "DELETE",
                 }

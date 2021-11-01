@@ -10,12 +10,18 @@
 }
 
 .about-content {
-    padding-top: 40px;
+    padding: 40px 60px;
+    opacity: .8;
+    width: 50%;
     background-color: black;
 }
 
 .about-banner h1 {
-    color: #ff8906;
+    color: #b8c1ec;
     font-size: 50px;
     font-weight: 800;
+}
+
+.about-banner p {
+    color: #eebbc3;
 }

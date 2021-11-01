@@ -7,7 +7,7 @@ import "./ManageBooking.css";
 const ManageBooking = () => {
     const [manageeBooking, setManageeBooking] = useState([]);
     useEffect(() => {
-        fetch("https://dark-labyrinth-92476.herokuapp.com/manageallorder")
+        fetch("https://quiet-everglades-89717.herokuapp.com/manageallorder")
             .then((res) => res.json())
             .then((data) => setManageeBooking(data));
     }, [manageeBooking]);
@@ -16,7 +16,7 @@ const ManageBooking = () => {
         const proceed = window.confirm("are you sure, you want to delete!!!");
         if (proceed) {
             fetch(
-                `https://dark-labyrinth-92476.herokuapp.com/mybooking/${id}`,
+                `https://quiet-everglades-89717.herokuapp.com/mybooking/${id}`,
                 {
                     method: "DELETE",
                 }
@@ -40,7 +40,7 @@ const ManageBooking = () => {
         );
         updatestatus.status = "approved";
 
-        const uri = `https://dark-labyrinth-92476.herokuapp.com/mybooking/${id}`;
+        const uri = `https://quiet-everglades-89717.herokuapp.com/mybooking/${id}`;
         fetch(uri, {
             method: "PUT",
             headers: {

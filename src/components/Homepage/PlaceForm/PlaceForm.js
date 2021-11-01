@@ -42,7 +42,7 @@ const PlaceForm = (props) => {
             phone,
         };
         // console.log(saveBooking);
-        const uri = "https://dark-labyrinth-92476.herokuapp.com/placebooking";
+        const uri = "https://quiet-everglades-89717.herokuapp.com/placebooking";
         fetch(uri, {
             method: "POST",
             headers: {
